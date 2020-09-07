@@ -61,6 +61,7 @@ sudo apt-get install libatlas-base-dev
 ```
 While we’re at it, let’s install other dependencies that will be used by the TensorFlow Object Detection API. These are listed on the [installation instructions](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md) in TensorFlow’s Object Detection GitHub repository. Issue:
 ```
+sudo apt-get install libffi-dev
 sudo pip3 install pillow lxml jupyter matplotlib cython
 sudo apt-get install python-tk
 ```
